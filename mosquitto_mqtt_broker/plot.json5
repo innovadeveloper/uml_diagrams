@@ -1,0 +1,38 @@
+{
+// Block header
+  "hd": {
+    // identifier : ie : timestamp
+    "uid": "138",
+    // topic response
+    "tr": null,
+    // command name : pedido venta, recarga...
+    "cmd": "setPedidoVenta",
+    // command type : fire and forget, request, response
+    "ctype": "FIRE_AND_FORGET",
+    // plot origin
+    "origin": "BD.0000001008",
+    // plot destiny
+    "destiny": "MP.0002500236",
+    // sequency number
+    "seq": 1,
+    // total sequency
+    "seqt": 1
+  },
+// Block body
+  "bd": {
+    "codUsuarioDestino": "1008",
+    "codigoEmpresa": "25",
+    "codigoRuta": "4",
+    "codigoUnidad": "236",
+    "saldo": 8025.83,
+    "mongodb_ids": "6334873821788dc095f225ee,6334873821788dc095f225ef,6334873821788dc095f225f0,6334873821788dc095f225f1,6334886221788dc095f2268d,6334886221788dc095f2268e,6334886221788dc095f2268f",
+    "hora": "28/09/2022 12:49:00"
+  },
+// Block Footer
+  "ft": {
+    // version
+    "ver": "1.0.0",
+    // signature
+    "sig": "AACQARDYAQAAeJMXZoEMAjwOzkOkmKkdyyjkfA0ZuBIJZOfAQzKv8MaKlYEel13qwTVAxKSxzAU3oCUAcU6OfIek25dyq0d8vQ=="
+  }
+}
